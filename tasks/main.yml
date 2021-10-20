@@ -5,4 +5,4 @@
     state: present
 - name: Include role for add SSH keys
   include_role:
-    name: ssh_install_key
+    name: ansible-role-ssh_install_key
