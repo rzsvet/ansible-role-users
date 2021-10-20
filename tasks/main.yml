@@ -1,0 +1,8 @@
+---
+- name: Creating user
+  ansible.builtin.user:
+    name: "{{ user_name }}"
+    state: present
+- name: Include role for add SSH keys
+  include_role:
+    name: ssh_install_key
