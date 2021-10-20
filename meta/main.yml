@@ -1,2 +1,13 @@
 ---
-name: users
+galaxy_info:
+  author: Svet
+  description: Role for add user
+  role_name: users
+  namespace: rzsvet
+
+  license: Apache License, Version 2.0
+
+  galaxy_tags:
+    - mysql
+
+dependencies: []
