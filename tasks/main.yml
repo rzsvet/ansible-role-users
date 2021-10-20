@@ -1,5 +1,5 @@
 ---
-- name: Creating user
+- name: Creating {{ user_name }}
   ansible.builtin.user:
     name: "{{ user_name }}"
     state: present
